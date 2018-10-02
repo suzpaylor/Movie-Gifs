@@ -1,0 +1,72 @@
+#header {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,79,121,1) 35%, rgba(0,212,255,1) 100%);
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: 'Questrial', sans-serif;
+	margin: 20px;
+	border-radius: 15px;
+}
+
+#topImageL {
+	width: 15%;
+	float: left;
+	margin:50px;
+}
+
+#topImageR {
+	width: 15%;
+	float: right;
+	margin: 50px;
+}
+
+label {
+	font-size: 18px;
+}
+
+#show {
+	margin: 5px;
+}
+
+#addShow {
+	border-radius: 5px;
+}
+
+#movieInput {
+	border-radius: 5px;
+}
+
+#netflixSearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+
+#gifArea {
+	clear: both;
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+
+}
+
+.netflixGiphy {
+	padding: 2px;
+	width: 80%;
+}
+
+.form-inline {
+	text-align: center;
+	margin: 20px;
+}
+
+img {
+	border-style: solid;
+	border-radius: 5px;
+	margin: 5px;
+	max-width: 300px;
+}
